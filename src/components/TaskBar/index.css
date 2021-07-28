@@ -1,0 +1,16 @@
+.taskbar-wrapper {
+  background-color: gray;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 2.2rem;
+  border-top: 3px;
+  border-top-style: groove;
+  border-top-color: black;
+  /* border-image: 
+    linear-gradient(
+      to top, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%; */
+}
