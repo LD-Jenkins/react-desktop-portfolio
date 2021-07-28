@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LD-Jenkins/react-desktop-portfolio/static/css/main.eb8d83cd.chunk.css",
+    "main.js": "/LD-Jenkins/react-desktop-portfolio/static/js/main.3e5d85eb.chunk.js",
+    "main.js.map": "/LD-Jenkins/react-desktop-portfolio/static/js/main.3e5d85eb.chunk.js.map",
+    "runtime-main.js": "/LD-Jenkins/react-desktop-portfolio/static/js/runtime-main.0eb19525.js",
+    "runtime-main.js.map": "/LD-Jenkins/react-desktop-portfolio/static/js/runtime-main.0eb19525.js.map",
+    "static/js/2.f6b59561.chunk.js": "/LD-Jenkins/react-desktop-portfolio/static/js/2.f6b59561.chunk.js",
+    "static/js/2.f6b59561.chunk.js.map": "/LD-Jenkins/react-desktop-portfolio/static/js/2.f6b59561.chunk.js.map",
+    "index.html": "/LD-Jenkins/react-desktop-portfolio/index.html",
+    "static/css/main.eb8d83cd.chunk.css.map": "/LD-Jenkins/react-desktop-portfolio/static/css/main.eb8d83cd.chunk.css.map",
+    "static/js/2.f6b59561.chunk.js.LICENSE.txt": "/LD-Jenkins/react-desktop-portfolio/static/js/2.f6b59561.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/LD-Jenkins/react-desktop-portfolio/static/media/profmecropped.4f40e4a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0eb19525.js",
+    "static/js/2.f6b59561.chunk.js",
+    "static/css/main.eb8d83cd.chunk.css",
+    "static/js/main.3e5d85eb.chunk.js"
+  ]
+}
