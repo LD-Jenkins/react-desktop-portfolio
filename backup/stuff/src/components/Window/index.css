@@ -1,0 +1,145 @@
+.window {
+  --window-height: 600px;
+  --window-width: 700px;
+  --window-border: 4px;
+  --window-main-color: rgb(179, 179, 179);
+  --window-header-height: 22px;
+  --window-header-color: rgb(12, 144, 144);
+  --window-toolbar-height: 60px;
+  --window-footer-height: 22px;
+  
+  display: inline-block;
+  position: absolute;
+  background-color: gray;
+  top: 200px;
+  left: 300px;
+  height: var(--window-height);
+  width: var(--window-width);
+  border-right: 4px ridge black;
+  border-bottom: 4px ridge black;
+  border-left: 3px ridge white;
+  border-top: 3px ridge white;
+  
+}
+
+.window-header {
+  height: var(--window-header-height);
+  background-color: var(--window-header-color);
+}
+
+.window-toolbar {
+  height: var(--window-toolbar-height);
+  background-color: var(--window-main-color);
+  /* border: 1px solid rgb(98, 96, 96); */
+}
+
+.title-btn {
+  position: absolute;
+  top: 2px;
+  height: 18px;
+  width: 20px;
+  border: 2px outset var(--window-main-color);
+  background-color: var(--window-main-color);
+  padding-bottom: 4px;
+}
+
+.close {
+  right: 2px;
+}
+
+.minimize {
+  right: 24px;
+}
+
+.title-btn-img {
+  position: absolute;
+  bottom: 1px;
+}
+
+.window-title-bar {
+  text-align: center;
+}
+
+.window-content-wrapper {
+  background-color: rgb(236, 233, 233);
+  height:
+    calc(
+      var(--window-height)
+      - var(--window-header-height)
+      - var(--window-toolbar-height)
+      - var(--window-footer-height)
+    );
+  width: 100%;
+}
+
+.window-content {
+  height: 100%;
+}
+
+.text-content {
+  height: 100%;
+  overflow: scroll;
+}
+
+iframe {
+  padding-right: 2px;
+  border: none;
+}
+
+.window-footer {
+  background-color: var(--window-main-color);
+  height: calc(var(--window-footer-height) - var(--window-border));
+  font-size: 14px;
+  border-top: var(--window-border) ridge gray;
+  padding-left: 2px;
+}
+
+.social-btn-container {
+  padding-top: 30px;
+  display: flex;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.social-btn-logo {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+}
+
+.social-btn-logo-large {
+  display: inline-block;
+  height: 24px;
+  width: 98px;
+  background-repeat: no-repeat;
+}
+
+.social-btn-text {
+  font-size: 14px;
+  padding-left: 6px;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.spinner {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  height:
+    calc(
+      var(--window-height)
+      - var(--window-header-height)
+      - var(--window-toolbar-height)
+      - var(--window-footer-height)
+    );
+  width: 100%;
+}
+

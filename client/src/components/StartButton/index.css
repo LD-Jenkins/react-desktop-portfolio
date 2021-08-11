@@ -1,0 +1,14 @@
+.start-btn {
+  display: inline;
+  left: 4px;
+  width: 60px;
+  font-weight: bold;
+  bottom: 4px;
+  height: 31px;
+  background-color: rgb(149, 149, 149);
+  position: absolute;
+  border-radius: 1px;
+  box-shadow: .3px .3px 0 .2px black;
+  color: black;
+  cursor: pointer;
+}

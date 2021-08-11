@@ -1,0 +1,21 @@
+.taskbar-wrapper {
+  background-color: rgb(149, 149, 149);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 38px;
+  border-top: 3px outset rgb(207, 201, 201);
+}
+
+.start-btn-wrapper {
+  height: 38px;
+  width: 75px;
+}
+
+.taskbar-item-wrapper {
+  height: 38px;
+  width: 1000px;
+  position: absolute;
+  left: 75px;
+  bottom: 0;
+}
